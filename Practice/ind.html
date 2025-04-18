@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Vibes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: white;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 2rem;
+      max-width: 300px;
+      transition: transform 0.3s ease;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+    .footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Creative Vibes</h1>
+    <p>Unleashing inspiration, one pixel at a time.</p>
+  </header>
+
+  <section class="cards">
+    <div class="card">
+      <h2>Visual Art</h2>
+      <p>Explore surreal digital artwork and stunning illustrations crafted by imagination.</p>
+    </div>
+    <div class="card">
+      <h2>Music & Sound</h2>
+      <p>Dive into our curated collection of ambient beats and experimental audio.</p>
+    </div>
+    <div class="card">
+      <h2>Creative Writing</h2>
+      <p>Get lost in poetic short stories, whimsical thoughts, and mindful journaling.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 Creative Vibes. All rights reserved.
+  </footer>
+</body>
+</html>
