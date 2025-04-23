@@ -1,2 +1,2 @@
 i am frontend developer
-author salman
+author salman you are wrong
